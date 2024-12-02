@@ -1,0 +1,92 @@
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  .typewriter {
+    font-size: 3rem;
+    font-weight: bold;
+    overflow: hidden;
+    display: inline-block; /* Ensures the text wraps */
+    white-space: normal; /* Allows text wrapping */
+    animation: typing 4s steps(40, end) forwards; /* Keeps the text displayed */
+    border-right: none; /* No cursor */
+    width: 100%;
+    max-width: 100%; /* Ensures full width for wrapping */
+  }
+  
+  .fixed-width {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: normal;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  /* Additional styles for button and card */
+  .btn-primary {
+    background: linear-gradient(135deg, #a36cf2, #7c4dff);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #7c4dff, #5c3cff);
+    color: white;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px; /* Optional, for rounded corners */
+  }
+  
+  .gradient-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: blur(0px);
+    transition: filter 0.3s ease; /* Optional, for a smooth transition */
+  }
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+    pointer-events: none; /* Ensures the gradient doesn't interfere with the image's interactivity */
+    z-index: 1; /* Places the gradient above the image */
+  }
+
+  .form-container {
+    background: linear-gradient(to right, rgba(11, 12, 114, 0.6), rgba(255, 255, 255, 0.1));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-container h3 {
+    font-size: 1.5rem;
+    color: #333333;
+  }

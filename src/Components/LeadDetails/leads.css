@@ -1,0 +1,68 @@
+.register {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  margin-top: 3%;
+  padding: 3%;
+}
+.register-left {
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.register-right {
+  background: #f8f9fa;
+  border-top-right-radius: 10% 50%;
+  border-bottom-right-radius: 10% 50%;
+}
+.register-left p {
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+.register .register-form {
+  padding: 10%;
+}
+.btnRegister {
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+.register-form .form-group {
+  margin-bottom: 20px;
+}
+
+.register-form .form-control {
+  height: 50px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.register-form .col-md-6 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.register-form textarea.form-control {
+  height: auto;
+  resize: none;
+}
+
+.register-form .col-md-12.text-right {
+  margin-top: 20px;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+}
