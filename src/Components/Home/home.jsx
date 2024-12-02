@@ -5,7 +5,6 @@ import { jwtDecode } from "jwt-decode";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "../../Context/UserContext";
-import FacebookLogin from "react-facebook-login";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 
